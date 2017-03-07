@@ -7,8 +7,7 @@ from Tkinter import *
 from PIL import Image, ImageTk
 
 #creating global variable
-global last_frame                                      
-last_frame = np.zeros((480, 640, 3), dtype=np.uint8)
+
 global cam
 
 
@@ -21,40 +20,36 @@ path='dataSet'
 # For detect
 rec=cv2.createLBPHFaceRecognizer();
 
-class App:
+class faceRecogApp:
+    
  def __init__(self, master):
-    frame = Frame(master)
+
+
+    frame = Frame(master, width=1000, height = 700)
     frame.pack()
-    self.show_vid()
-    self.dataSetCreateBtn = Button(frame, 
-                         text="dataSetCreate", fg="red",width=25,height=3,
+
+    circleCanvas = Canvas(frame, width=800, height=500, bg='white')
+    circleCanvas.grid(row=0, column=0, padx=10, pady=2)
+
+    # initialize the root window and image panel
+
+    btnFrame = Frame(frame, width=200, height=200)
+    btnFrame.grid(row=1, column=0, padx=10, pady=2)
+
+    self.dataSetCreateBtn = Button(btnFrame,
+                         text="dataSetCreate", fg="red", padx=10, pady=2,width=15,
                          command=self.dataSetCreate)
     self.dataSetCreateBtn.pack(side=LEFT)
-    self.trainingBtn = Button(frame,
-                         text="Training",width=25,height=3,
+    self.trainingBtn = Button(btnFrame,
+                         text="Training", padx=10, pady=2,width=15,
                          command=self.training)
     self.trainingBtn.pack(side=LEFT)
-    self.detectBtn = Button(frame,
-                         text="Detect",width=25,height=3,
+    self.detectBtn = Button(btnFrame,
+                         text="Detect", padx=10, pady=2,width=15,
                          command=self.detect)
     self.detectBtn.pack(side=LEFT)
- def show_vid():                                        #creating a function
-    if not cap.isOpened():                             #checks for the opening of camera
-        print("cant open the camera")
-    flag, frame = cap.read()
-    frame = cv2.flip(frame, 1)
-    if flag is None:
-        print "Major error!"
-    elif flag:
-        global last_frame
-        last_frame = frame.copy()
 
-    pic = cv2.cvtColor(last_frame, cv2.COLOR_BGR2RGB)     #we can change the display color of the frame gray,black&white here
-    img = Image.fromarray(pic)
-    imgtk = ImageTk.PhotoImage(image=img)
-    lmain.imgtk = imgtk
-    lmain.configure(image=imgtk)
-    lmain.after(10, show_vid)
+    
  def getIamgesWithID(path):
     imagePaths=[os.path.join(path,f) for f in os.listdir(path)]
     faces = []
@@ -69,6 +64,8 @@ class App:
         cv2.imshow("training",faceNp)
         cv2.waitKey(10)
     return np.array(IDs), faces
+
+
  def dataSetCreate(self):
     print("dataSetCreateBtn pressed")
     id=raw_input('enter user id')
@@ -84,12 +81,13 @@ class App:
             cv2.waitKey(100);
         #cv2.imshow("Face",img);
         cv2.waitKey(1);
-        if(sampleNum>20):
+        if(sampleNum>40):
             break
     cam.release()
+    
  def training(self):
     print("trainingBtn pressed")
-    Ids,faces=getIamgesWithID(path)
+    Ids,faces= self.getIamgesWithID(path)
     recognizer.train(faces,Ids)
     recognizer.save('recognizer/trainningData.yml')
    
@@ -114,9 +112,7 @@ class App:
             cv2.cv.PutText(cv2.cv.fromarray(img),str(id),(x,y+h),font,255);
         if(cv2.waitKey(1)==ord('q')):
             break;
-root = Tk()
-lmain = tk.Label(master=root)
-lmain.grid(column=0, rowspan=4, padx=5, pady=5)
+root = tk.Tk()
 root.title("Face Detector by jungining");
-app = App(root)
+app = faceRecogApp(root)
 root.mainloop()
