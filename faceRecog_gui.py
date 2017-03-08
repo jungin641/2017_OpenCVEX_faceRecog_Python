@@ -26,7 +26,7 @@ class faceRecogApp:
         frame = Frame(master, width=1000, height=700)
         frame.pack()
 
-        circleCanvas = Canvas(frame, width=800, height=500, bg='white')
+        circleCanvas = Canvas(frame, width=800, height=500, bg='pink')
         circleCanvas.grid(row=0, column=0, padx=10, pady=2)
 
         # initialize the root window and image panel
@@ -46,6 +46,7 @@ class faceRecogApp:
                                 text="Detect", padx=10, pady=2, width=15,
                                 command=self.detect)
         self.detectBtn.pack(side=LEFT)
+        self.detect()
 
     def getIamgesWithID(path):
         imagePaths = [os.path.join(path, f) for f in os.listdir(path)]

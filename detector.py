@@ -4,7 +4,7 @@ import numpy as np
 
 faceDetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml');
 cam=cv2.VideoCapture(0);
-rec=cv2.createLBPHFaceRecognizer();
+recognizer=cv2.createLBPHFaceRecognizer();
 recognizer.load("recognizer\\trainningData.yml")
 id=0
 font=cv2.cv.InitFont(cv2.cv.CV_FONT_HERSHEY_COMPLEX_SMALL,5,1,0,4)
