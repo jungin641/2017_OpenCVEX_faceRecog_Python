@@ -2,79 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fd4df4f-be22-4091-8433-c8b326322b61" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSet/User.5.1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSet/User.5.2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSet/User.5.3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSet/User.5.4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSet/User.5.5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataSet/User.5.6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tkinterEx.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.1.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.10.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.11.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.12.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.13.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.14.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.15.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.15.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.16.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.16.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.17.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.17.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.18.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.18.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.19.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.19.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.2.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.20.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.20.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.21.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.21.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.3.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.4.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.5.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.6.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.7.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.8.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.1.9.jpg" afterPath="$PROJECT_DIR$/dataSet/User.1.9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.1.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.10.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.11.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.12.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.13.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.14.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.15.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.15.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.16.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.16.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.17.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.17.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.18.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.18.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.19.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.19.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.2.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.20.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.20.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.21.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.21.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.3.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.4.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.5.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.6.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.7.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.8.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.2.9.jpg" afterPath="$PROJECT_DIR$/dataSet/User.2.9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.1.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.10.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.11.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.12.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.13.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.14.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.15.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.15.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.16.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.16.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.17.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.17.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.18.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.18.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.19.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.19.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.2.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.20.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.20.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.21.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.21.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.3.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.4.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.5.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.6.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.7.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.8.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataSet/User.3.9.jpg" afterPath="$PROJECT_DIR$/dataSet/User.3.9.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detector.py" afterPath="$PROJECT_DIR$/detector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recognizer/trainningData.yml" afterPath="$PROJECT_DIR$/recognizer/trainningData.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tkinterExOriginal.py" afterPath="$PROJECT_DIR$/tkinterExOriginal.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,8 +14,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/faceRecogPython$tkinterEx.coverage" NAME="tkinterEx Coverage Results" MODIFIED="1489048128284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/faceRecogPython$faceRecog_gui.coverage" NAME="faceRecog_gui Coverage Results" MODIFIED="1488946154071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/faceRecogPython$tkinterExOriginal.coverage" NAME="tkinterExOriginal Coverage Results" MODIFIED="1489369312647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/faceRecogPython$faceRecog_gui.coverage" NAME="faceRecog_gui Coverage Results" MODIFIED="1489380025834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/faceRecogPython$tkinterExOriginal.coverage" NAME="tkinterExOriginal Coverage Results" MODIFIED="1489388664100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -104,25 +33,57 @@
     <favorites_list name="faceRecogPython" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="faceRecog_gui.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faceRecog_gui.py">
+    <leaf>
+      <file leaf-file-name="tkinterExOriginal.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tkinterExOriginal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="142">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datasetCreator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datasetCreator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Image.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/PIL/Image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="2348" column="0" lean-forward="false" selection-start-line="2348" selection-start-column="0" selection-end-line="2348" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tkinterExOriginal.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tkinterExOriginal.py">
+      <file leaf-file-name="trainner.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trainner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tkinter.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/lib-tk/Tkinter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="530" column="0" lean-forward="false" selection-start-line="530" selection-start-column="0" selection-end-line="530" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,6 +100,8 @@
       <find>detect</find>
       <find>self</find>
       <find>faceDetect</find>
+      <find>recog</find>
+      <find>module</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,10 +124,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="423" />
-    <option name="y" value="11" />
-    <option name="width" value="1164" />
-    <option name="height" value="1057" />
+    <option name="x" value="362" />
+    <option name="y" value="45" />
+    <option name="width" value="1267" />
+    <option name="height" value="946" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -181,6 +144,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,8 +160,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -482,8 +445,8 @@
     <recent_temporary>
       <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Python.tkinterExOriginal" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tkinterEx" />
-        <item index="2" class="java.lang.String" itemvalue="Python.faceRecog_gui" />
+        <item index="1" class="java.lang.String" itemvalue="Python.faceRecog_gui" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tkinterEx" />
       </list>
     </recent_temporary>
   </component>
@@ -510,18 +473,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="423" y="11" width="1164" height="1057" extended-state="0" />
+    <frame x="362" y="45" width="1267" height="946" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22125435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2104391" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115221985" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40270936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39852008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -529,12 +493,29 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -555,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,9 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,7 +551,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -583,7 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,7 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27911">
           <caret line="1469" column="0" lean-forward="false" selection-start-line="1469" selection-start-column="0" selection-end-line="1469" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27911">
           <caret line="1469" column="0" lean-forward="false" selection-start-line="1469" selection-start-column="0" selection-end-line="1469" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27911">
           <caret line="1469" column="0" lean-forward="false" selection-start-line="1469" selection-start-column="0" selection-end-line="1469" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,28 +666,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/lib-tk/Tkinter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27911">
-          <caret line="1469" column="0" lean-forward="false" selection-start-line="1469" selection-start-column="0" selection-end-line="1469" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tkinterEx.py" />
-    <entry file="file://$PROJECT_DIR$/datasetCreator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,17 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,26 +685,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceRecog_gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="2348" column="0" lean-forward="false" selection-start-line="2348" selection-start-column="0" selection-end-line="2348" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/lib-tk/Tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="530" column="0" lean-forward="false" selection-start-line="530" selection-start-column="0" selection-end-line="530" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasetCreator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faceRecog_gui.py">
+    <entry file="file://$PROJECT_DIR$/trainner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tkinterExOriginal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="142">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
