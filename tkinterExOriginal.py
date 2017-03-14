@@ -20,17 +20,19 @@ lmain.grid(row=0, column=0)
 cap = cv2.VideoCapture(0)
 
 #for face detect
-faceDetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml');
+faceDetect=cv2.CascadeClassifier(r'C:\a_jungining\faceRecogPython\haarcascade_frontalface_default.xml');
 rec=cv2.createLBPHFaceRecognizer();
 rec.load("recognizer\\trainningData.yml")
-id=5
+
 font=cv2.cv.InitFont(cv2.cv.CV_FONT_HERSHEY_COMPLEX_SMALL,5,1,0,4)
 #for training
 path='dataSet'
+sampleNum = 0
+id = 0
+
 
 def detect():
     _, frame = cap.read()
-
     frame = cv2.flip(frame, 1)
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = faceDetect.detectMultiScale(gray, 1.3, 5);
@@ -43,7 +45,6 @@ def detect():
             id = "Yunmi"
         if (id == 3):
             id = "Jihoon"
-
         cv2.cv.PutText(cv2.cv.fromarray(frame), str(id), (x, y + h), font, 255);
 
     cv2image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGBA)
@@ -53,23 +54,39 @@ def detect():
     lmain.configure(image=imgtk)
     lmain.after(10, detect)
 
+
 def dataSetCreate():
     print("dataSetCreateBtn pressed")
-    cap.release()
+    global id
     id = raw_input('enter user id')
-    sampleNum = 0;
-    while (True):
-        _, frameforDSC = cap.read();
-        frameforDSC = cv2.flip(frameforDSC, 1)
-        grayforDSC = cv2.cvtColor(frameforDSC, cv2.COLOR_BGR2GRAY)
-        faces = faceDetect.detectMultiScale(grayforDSC, 1.3, 5);
-        for (x, y, w, h) in faces:
-            sampleNum = sampleNum + 1;
-            cv2.imwrite("dataSet/User." + str(id) + "." + str(sampleNum) + ".jpg", grayforDSC[y:y + h, x:x + w])
-            cv2.rectangle(frameforDSC, (x, y), (x + w, y + h), (0, 255, 0), 2)
-            cv2.waitKey(100);
+    dataSetCreateInLoop()
+
+
+def dataSetCreateInLoop():
+    global sampleNum
+    global id
+    _, frameforDSC = cap.read();
+    frameforDSC = cv2.flip(frameforDSC, 1)
+    grayforDSC = cv2.cvtColor(frameforDSC, cv2.COLOR_BGR2GRAY)
+    faces = faceDetect.detectMultiScale(grayforDSC, 1.3, 5);
+
+    for (x, y, w, h) in faces:
+        cv2.imwrite("dataSet/User." + str(id) + "." + str(sampleNum) + ".jpg", grayforDSC[y:y + h, x:x + w])
+        cv2.rectangle(frameforDSC, (x, y), (x + w, y + h), (0, 255, 0), 2)
+        cv2.waitKey(100);
+        sampleNum = sampleNum + 1;
         if (sampleNum > 20):
             break
+    cv2image = cv2.cvtColor(frameforDSC, cv2.COLOR_BGR2RGBA)
+    img = Image.fromarray(cv2image)
+    imgtk = ImageTk.PhotoImage(image=img)
+    lmain.imgtk = imgtk
+    lmain.configure(image=imgtk)
+    if (sampleNum < 20):
+        lmain.after(10, dataSetCreateInLoop)
+    else:
+        sampleNum = 0
+
 
 
 def getIamgesWithID(path):
@@ -109,10 +126,9 @@ trainingBtn = tk.Button(btnFrame,
                     command=training)
 trainingBtn.pack(side=tk.LEFT)
 detectBtn = tk.Button(btnFrame,
-                    text="Detect", padx=10, pady=2, width=15,
-                    command=detect)
+                    text="Detect", padx=10, pady=2, width=15)
 detectBtn.pack(side=tk.LEFT)
 
 
-detect()  #Detect faces
-window.mainloop()  #Starts GUI
+detect()
+window.mainloop()  # Starts GUI
