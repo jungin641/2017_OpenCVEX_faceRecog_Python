@@ -11,7 +11,7 @@ window.wm_title("Digital Microscope")
 window.config(background="#FFFFFF")
 
 #Graphics window
-imageFrame = tk.Frame(window, width=600, height=500,bg='red')
+imageFrame = tk.Frame(window, width=800, height=700)
 imageFrame.grid(row=0, column=0, padx=10, pady=2)
 
 #Capture video frames
@@ -32,6 +32,7 @@ id = 0
 
 
 def detect():
+
     _, frame = cap.read()
     frame = cv2.flip(frame, 1)
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -41,9 +42,9 @@ def detect():
         id, conf = rec.predict(gray[y:y + h, x:x + h])
         if (id == 1):
             id = "Jungin"
-        if (id == 2):
+        elif (id == 2):
             id = "Yunmi"
-        if (id == 3):
+        elif (id == 3):
             id = "Jihoon"
         cv2.cv.PutText(cv2.cv.fromarray(frame), str(id), (x, y + h), font, 255);
 
@@ -57,27 +58,29 @@ def detect():
 
 def dataSetCreate():
     print("dataSetCreateBtn pressed")
+
     global id
-    id = raw_input('enter user id')
+    id = raw_input('enter user id : ')
     dataSetCreateInLoop()
 
 
 def dataSetCreateInLoop():
     global sampleNum
     global id
-    _, frameforDSC = cap.read();
-    frameforDSC = cv2.flip(frameforDSC, 1)
-    grayforDSC = cv2.cvtColor(frameforDSC, cv2.COLOR_BGR2GRAY)
+    _, frame = cap.read();
+    frame = cv2.flip(frame, 1)
+    grayforDSC = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = faceDetect.detectMultiScale(grayforDSC, 1.3, 5);
 
     for (x, y, w, h) in faces:
         cv2.imwrite("dataSet/User." + str(id) + "." + str(sampleNum) + ".jpg", grayforDSC[y:y + h, x:x + w])
-        cv2.rectangle(frameforDSC, (x, y), (x + w, y + h), (0, 255, 0), 2)
+        cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
         cv2.waitKey(100);
         sampleNum = sampleNum + 1;
         if (sampleNum > 20):
             break
-    cv2image = cv2.cvtColor(frameforDSC, cv2.COLOR_BGR2RGBA)
+    cv2.imshow("DataSetCreate", frame);
+    cv2image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGBA)
     img = Image.fromarray(cv2image)
     imgtk = ImageTk.PhotoImage(image=img)
     lmain.imgtk = imgtk
@@ -86,6 +89,8 @@ def dataSetCreateInLoop():
         lmain.after(10, dataSetCreateInLoop)
     else:
         sampleNum = 0
+        cv2.destroyAllWindows()
+
 
 
 
@@ -114,8 +119,8 @@ def training():
 
 
 #btn window (slider controls stage position)
-btnFrame = tk.Frame(window, width=600, height=100)
-btnFrame.grid(row = 600, column=0, padx=10, pady=2)
+btnFrame = tk.Frame(window, width=700, height=100)
+btnFrame.grid(row = 700, column=0, padx=10, pady=2)
 
 dataSetCreateBtn = tk.Button(btnFrame,
                     text="dataSetCreate", padx=10, pady=2, width=15,
