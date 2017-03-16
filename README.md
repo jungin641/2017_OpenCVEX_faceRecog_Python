@@ -23,12 +23,12 @@ FaceRecognition for KETI with openCV, python
 
 #### <i class="icon-file"></i>FaceRecog 동작 방식
 > **func dataSetCreate()** 
->--  웹캠의 화면을 읽어와서 화면 안에서 인식되는 얼굴들을 얼굴부분만 잘라 이미지형태로 저장한다.
+>- 웹캠의 화면을 읽어와서 화면 안에서 인식되는 얼굴들을 얼굴부분만 잘라 이미지형태로 저장한다.
 > 
 > 
 >**func training()** 
->--  저장된 이미지 파일들을 userID가 같은 것들끼리 그룹화하여 trainingData.yml이라는 파일로 저장해둔다.
+>-  저장된 이미지 파일들을 userID가 같은 것들끼리 그룹화하여 trainingData.yml이라는 파일로 저장해둔다.
 >
 > **func detect()** 
->--  trainingData.yml에 저장된 정보들을 바탕으로 recognizer는 인식한 얼굴이 누구의 얼굴인지 predict하여 나타내준다. 
+>-  trainingData.yml에 저장된 정보들을 바탕으로 recognizer는 인식한 얼굴이 누구의 얼굴인지 predict하여 나타내준다. 
 >
