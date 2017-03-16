@@ -1,8 +1,8 @@
 FaceRecognition for KETI with openCV, python
 ===================
 
-전자부품연구원 콘텐츠응용연구센터 첫번째 개발 과제
-**openCV**와 **python**을 활용한 **얼굴 인식(Recognition)** 프로그램
+- 전자부품연구원 콘텐츠응용연구센터 첫번째 개발 과제
+- **openCV**와 **python**을 활용한 **얼굴 인식(Recognition)** 프로그램
 
 ----------
 
