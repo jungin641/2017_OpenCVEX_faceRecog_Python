@@ -15,7 +15,7 @@ FaceRecognition for KETI with openCV, python
 
 
 #### <i class="icon-file"></i> 얼굴 인식 과정
-![enter image description here](https://raw.githubusercontent.com/cmusatyalab/openface/master/images/summary.jpg)
+
  >1. DataSet 만들기 
  >2. 만들어진 Data들을 재료로 trainging 시키기(TrainingData.yml)
  >3. detect하기 == 얼굴 인식!
