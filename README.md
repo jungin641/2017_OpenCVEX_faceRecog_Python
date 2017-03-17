@@ -40,6 +40,5 @@ FaceRecognition for KETI with openCV, python
 >-  trainingData.yml에 저장된 정보들을 바탕으로 recognizer는 인식한 얼굴이 누구의 얼굴인지 predict하여 나타내준다. 
 >
 
-실행 파일 링크 : https://goo.gl/UYMrxe
-
+실행 파일 링크 : https://goo.gl/oPFgzW
 참고 링크 : http://thecodacus.com/opencv-face-recognition-python-part1/#.WMoeAjuLTRY
