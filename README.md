@@ -11,7 +11,7 @@ FaceRecognition for KETI with openCV, python
 >- 개발 기간 : 2017.03.07 ~ 2017. 03.17
 >- 개발 언어 및 환경 : [python2.7.6](https://www.python.org/download/releases/2.7.6/)
 >- 사용 IDE : [JetBrains PyCharm](https://www.jetbrains.com/pycharm/)
->- 해당 툴과 언어 사용 이전에 C++ / openCV 를 사용하여 개발을 진행하였으나, C++ / openCV를 사용한 자료들은 4~5년 전이 최신이어서 운영체제 버전이라던지 여러가지 요인으로 인해 실행이 안 되는 문제 발생
+>- 해당 툴과 언어 사용 이전에 C++ / openCV 를 사용하여 개발을 진행하였으나, C++ / openCV를 사용한 자료들은 4~5년 전이 최신이기 때문에 운영체제 버전 등의 여러가지 요인으로 인해 실행이 안 되는 문제 발생
 >- 그 대안으로 python은 최근 4~5년 내에 그 사용이 급증하여 왠만한 얼굴 인식 프로그램은 python을 사용하는 추세를 보임,  os독립적으로 어디서든 호환성이 뛰어나며 추후 확장성이 더 뛰어날것이라고 판단하여 python을 사용하는 것으로 개발 방향을 수정.
 
 #### <i class="icon-file"></i> 사용 모듈
